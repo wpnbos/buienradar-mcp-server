@@ -42,6 +42,9 @@ Replace `/ABSOLUTE/PATH/TO/PARENT/FOLDER/buienradar-mcp-server` with the actual 
 
 Restart Claude for Desktop for the tool to become available.
 
+You might have to provide the full path for `uv` instead of just `uv`.
+To find the full path for your `uv` executable, on MacOS/Linux execute `which uv`.
+
 ## Usage
 
 If all went well, you should be able to ask Claude about any upcoming precipitation.
