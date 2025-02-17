@@ -6,6 +6,8 @@ This is an MCP server that fetches precipitation data for a given latitude and l
 
 ## Configuration
 
+First, make sure you have `uv` (and Python) installed.
+
 To integrate this server with `Claude for Desktop`, update your configuration file at:
 
 MacOS/Linux
