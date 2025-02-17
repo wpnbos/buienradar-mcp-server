@@ -2,7 +2,7 @@ import httpx
 from mcp.server.fastmcp import FastMCP
 
 
-mcp = FastMCP("weather")
+mcp = FastMCP("precipitation")
 
 
 USER_AGENT = "persoonlijk-gebruik"
