@@ -1,8 +1,17 @@
 # Buienradar MCP Server
+[![smithery badge](https://smithery.ai/badge/@wpnbos/buienradar-mcp-server)](https://smithery.ai/server/@wpnbos/buienradar-mcp-server)
 
 ## Overview
 
 This is an MCP server that fetches precipitation data for a given latitude and longitude using Buienradar. It exposes a single MCP tool, `get_precipitation_for`, which provides precipitation forecasts for the next two hours.
+
+### Installing via Smithery
+
+To install Buienradar MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@wpnbos/buienradar-mcp-server):
+
+```bash
+npx -y @smithery/cli install @wpnbos/buienradar-mcp-server --client claude
+```
 
 ## Configuration
 
