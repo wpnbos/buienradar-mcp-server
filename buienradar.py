@@ -39,6 +39,7 @@ def format_response(data: str) -> str:
 
 @mcp.tool()
 async def get_precipitation_for(lat: float, lon: float) -> str:
+    """Fetches precipitation data for the next 2 hours from Buienradar."""
     data = await make_request(format_url(lat, lon))
     if not data:
         return "Could not get precipitation data."
